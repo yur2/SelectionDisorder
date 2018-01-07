@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yul.com.selectiondisorder.Level2_4Activity">
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="85dp"
+        android:layout_height="25dp"
+        android:text="LEVEL2-밀가루"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="197dp"
+        android:layout_height="0dp"
+        android:text="다시 이 중에서 골라주세요~"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <Button
+        android:id="@+id/button59"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:text="빵"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <Button
+        android:id="@+id/button60"
+        android:layout_width="154dp"
+        android:layout_height="36dp"
+        android:text="예) 야채빵, 크림 빵, 케잌"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <Button
+        android:id="@+id/button61"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:text="전"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <Button
+        android:id="@+id/button62"
+        android:layout_width="128dp"
+        android:layout_height="42dp"
+        android:text="예) 감자전, 김치전"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="257dp" />
+
+    <Button
+        android:id="@+id/button63"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:text="한식"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="332dp" />
+
+    <Button
+        android:id="@+id/button64"
+        android:layout_width="132dp"
+        android:layout_height="36dp"
+        android:text="예) 구절판, 수제비"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <Button
+        android:id="@+id/button66"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:text="튀김"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <Button
+        android:id="@+id/button67"
+        android:layout_width="140dp"
+        android:layout_height="41dp"
+        android:text="예) 호떡, 단호박튀김"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="454dp" />
+</android.support.constraint.ConstraintLayout>

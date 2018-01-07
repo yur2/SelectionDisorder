@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yul.com.selectiondisorder.Level3_3Activity">
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="79dp"
+        android:layout_height="24dp"
+        android:text="LEVEL3-면"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="130dp"
+        android:layout_height="28dp"
+        android:text="뜨겁고 국물이 있는 것"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="165dp"
+        android:layout_height="111dp"
+        app:srcCompat="@drawable/bibimbab"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="185dp"
+        android:layout_height="38dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="163dp"
+        android:layout_height="108dp"
+        app:srcCompat="@drawable/bibimbab"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="187dp"
+        android:layout_height="40dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="441dp" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yul.com.selectiondisorder.Level2_1Activity">
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="103dp"
+        android:layout_height="27dp"
+        android:text="LEVEL2-밥"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="165dp"
+        android:layout_height="27dp"
+        android:text="다시 골라주세요!!"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="87dp"
+        android:layout_height="37dp"
+        android:text="볶은류"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="168dp"
+        android:layout_height="37dp"
+        android:text="예) 볶은밥, 비빔밥"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <Button
+        android:id="@+id/button35"
+        android:layout_width="90dp"
+        android:layout_height="33dp"
+        android:text="가정식"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <Button
+        android:id="@+id/button36"
+        android:layout_width="169dp"
+        android:layout_height="37dp"
+        android:text="예) 한식, 일본가정식"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <Button
+        android:id="@+id/button37"
+        android:layout_width="87dp"
+        android:layout_height="38dp"
+        android:text="국밥"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <Button
+        android:id="@+id/button38"
+        android:layout_width="171dp"
+        android:layout_height="36dp"
+        android:text="예) 돼지국밥, 순대국밥"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <Button
+        android:id="@+id/button39"
+        android:layout_width="87dp"
+        android:layout_height="37dp"
+        android:text="탕"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <Button
+        android:id="@+id/button40"
+        android:layout_width="170dp"
+        android:layout_height="39dp"
+        android:text="예) 곰탕, 생선탕"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="444dp" />
+
+</android.support.constraint.ConstraintLayout>

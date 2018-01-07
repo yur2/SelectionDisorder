@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yul.com.selectiondisorder.Level2_5Activity">
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="121dp"
+        android:layout_height="26dp"
+        android:text="LEVEL5-패스트푸드"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="181dp"
+        android:layout_height="25dp"
+        android:text="다시 이 중에서 골라주세요~"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <Button
+        android:id="@+id/button68"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="피자"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <Button
+        android:id="@+id/button69"
+        android:layout_width="163dp"
+        android:layout_height="38dp"
+        android:text="예) 불고기피자, 야채피자"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <Button
+        android:id="@+id/button70"
+        android:layout_width="150dp"
+        android:layout_height="38dp"
+        android:text="예) 새우버거, 치킨버거"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <Button
+        android:id="@+id/button71"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="도너츠"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <Button
+        android:id="@+id/button72"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:text="예) "
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <Button
+        android:id="@+id/button73"
+        android:layout_width="124dp"
+        android:layout_height="37dp"
+        android:text="예) 떡볶이, 가래떡"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <Button
+        android:id="@+id/button74"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:text="햄버거"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <Button
+        android:id="@+id/button75"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="떡"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="371dp" />
+</android.support.constraint.ConstraintLayout>
