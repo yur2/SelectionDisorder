@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yul.com.selectiondisorder.Level_4_4_1Activity">
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="93dp"
+        android:layout_height="23dp"
+        android:text="LEVEL3-밀가루"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="21dp"
+        android:layout_height="24dp"
+        android:text="빵"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="173dp"
+        android:layout_height="109dp"
+        app:srcCompat="@drawable/bibimbab"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="223dp"
+        android:layout_height="41dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="176dp"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/bibimbab"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MultiAutoCompleteTextView"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="422dp" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yul.com.selectiondisorder.Level_2_3Activity">
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="85dp"
+        android:layout_height="27dp"
+        android:text="LEVEL2-면"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="171dp"
+        android:layout_height="27dp"
+        android:text="다시 이 중에서 골라주세요~"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <Button
+        android:id="@+id/button51"
+        android:layout_width="153dp"
+        android:layout_height="37dp"
+        android:text="뜨겁고 국물이 있는 것"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <Button
+        android:id="@+id/button52"
+        android:layout_width="153dp"
+        android:layout_height="38dp"
+        android:text="차갑고 국물이 있는 것"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <Button
+        android:id="@+id/button53"
+        android:layout_width="141dp"
+        android:layout_height="38dp"
+        android:text="예) 라면, 짬뽕, 국수"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <Button
+        android:id="@+id/button54"
+        android:layout_width="106dp"
+        android:layout_height="34dp"
+        android:text="예) 냉면, 콩국수"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <Button
+        android:id="@+id/button55"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:text="예) "
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <Button
+        android:id="@+id/button56"
+        android:layout_width="148dp"
+        android:layout_height="38dp"
+        android:text="뜨겁고 국물이 없는 것"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <Button
+        android:id="@+id/button57"
+        android:layout_width="149dp"
+        android:layout_height="39dp"
+        android:text="차갑고 국물이 없는 것"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <Button
+        android:id="@+id/button58"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:text="예) 소바"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="422dp" />
+</android.support.constraint.ConstraintLayout>

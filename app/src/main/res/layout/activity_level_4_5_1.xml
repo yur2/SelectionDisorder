@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yul.com.selectiondisorder.Level_4_5_1Activity">
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="128dp"
+        android:layout_height="28dp"
+        android:text="LEVEL3-패스트푸드"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="43dp"
+        android:layout_height="19dp"
+        android:text="피자"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="178dp"
+        android:layout_height="104dp"
+        app:srcCompat="@drawable/bibimbab"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="231dp"
+        android:layout_height="43dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="181dp"
+        android:layout_height="105dp"
+        app:srcCompat="@drawable/bibimbab"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="235dp"
+        android:layout_height="44dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="424dp" />
+</android.support.constraint.ConstraintLayout>
