@@ -7,12 +7,15 @@
     tools:context="yul.com.selectiondisorder.Level_4_1_1Activity">
 
     <TextView
-    android:id="@+id/textView43"
-    android:layout_width="82dp"
-    android:layout_height="21dp"
-    android:text="Level3-밥"
-    tools:layout_editor_absoluteX="26dp"
-    tools:layout_editor_absoluteY="16dp" />
+        android:id="@+id/textView43"
+        android:layout_width="82dp"
+        android:layout_height="21dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Level3-밥"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
 
     <TextView
         android:id="@+id/textView44"
