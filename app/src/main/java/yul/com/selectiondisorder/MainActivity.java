@@ -15,14 +15,17 @@ public class MainActivity extends AppCompatActivity {
 
         Button button = (Button) findViewById(R.id.button2);
 
-//        View.OnClickListener listner = new View.OnClickListener() {
+//        View.OnClickListener listener = new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
 //                Intent intent = new Intent(this, Level_1_1Activity.class);
 //                startActivity(intent);
 //            }
 //        };
+//      button.setOnClickListener(listener);
 //
+
+
 //
 //        button.setOnClickListener(new View.OnClickListener() {
 //            @Override
