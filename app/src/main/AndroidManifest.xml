@@ -16,51 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NewMainActivity" />
-        <activity android:name=".Level_1Activity" />
-        <activity android:name=".Level_1_1Activity" />
-        <activity android:name=".Level_1_2Activity" />
-        <activity android:name=".Level_1_3Activity" />
-        <activity android:name=".Level_1_4Activity" />
-        <activity android:name=".Level_1_5Activity" />
-        <activity android:name=".Level_1_6Activity" />
-        <activity android:name=".Level_2_1Activity" />
-        <activity android:name=".Level_2_2Activity" />
-        <activity android:name=".Level_2_3Activity" />
-        <activity android:name=".Level_2_4Activity" />
-        <activity android:name=".Level_2_5Activity" />
-        <activity android:name=".Level_2_6Activity" />
-        <activity android:name=".Level_3_1Activity" />
-        <activity android:name=".Level_3_3Activity" />
-        <activity android:name=".Level_3_4Activity" />
-        <activity android:name=".Level_3_5Activity" />
-        <activity android:name=".Level_3_6Activity" />
-        <activity android:name=".Level_4_1_2Activity" />
-        <activity android:name=".Level_4_1_3Activity" />
-        <activity android:name=".Level_4_1_4Activity" />
-        <activity android:name=".Level_4_2_1Activity" />
-        <activity android:name=".Level_4_2_2Activity" />
-        <activity android:name=".Level_4_2_3Activity" />
-        <activity android:name=".Level_4_2_4Activity" />
-        <activity android:name=".Level_4_2_5Activity" />
-        <activity android:name=".Level_4_3_1Activity" />
-        <activity android:name=".Level_4_3_2Activity" />
-        <activity android:name=".Level_4_3_3Activity" />
-        <activity android:name=".Level_4_3_4Activity" />
-        <activity android:name=".Level_4_4_2Activity" />
-        <activity android:name=".Level_4_4_3Activity" />
-        <activity android:name=".Level_4_4_4Activity" />
-        <activity android:name=".Level_4_5_1Activity" />
-        <activity android:name=".Level_4_5_2Activity" />
-        <activity android:name=".Level_4_5_3Activity" />
-        <activity android:name=".Level_4_5_4Activity" />
-        <activity android:name=".Level_4_6_1Activity" />
-        <activity android:name=".Level_4_6_2Activity" />
-        <activity android:name=".Level_4_6_3Activity" />
-        <activity android:name=".Level_4_6_4Activity" />
-        <activity android:name=".Level_3_2Activity" />
-        <activity android:name=".Level_4_4_1Activity" />
-        <activity android:name=".Level_4_1_1Activity"></activity>
     </application>
 
 </manifest>
