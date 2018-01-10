@@ -22,14 +22,16 @@ public class MainActivity extends AppCompatActivity {
         btn_left.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "막걸리를 선택하셨습니다", Toast.LENGTH_SHORT).show();
+
+
             }
         });
 
         btn_right.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "칵테일을 선택하셨습니다", Toast.LENGTH_SHORT).show();
+
+                
             }
         });
 
