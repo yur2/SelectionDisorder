@@ -10,4 +10,6 @@ public class TwoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_two);
     }
+
+
 }

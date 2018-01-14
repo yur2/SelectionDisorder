@@ -24,17 +24,18 @@ public class MainActivity extends AppCompatActivity {
         btn_select_one.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                intent = new Intent(MainActivity.this, OneActivity.class);
+                startActivity(intent);
             }
         });
 
         btn_select_two.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                intent = new Intent(MainActivity.this, TwoActivity.class);
+                startActivity(intent);
             }
         });
-
 
 
     }
