@@ -13,28 +13,27 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button btn_left = (Button) findViewById(R.id.btn_left);
-        Button btn_right = (Button) findViewById(R.id.btn_right);
+        Button button = (Button) findViewById(R.id.button2);
 
-        btn_left.setText("막걸리");
-        btn_right.setText("칵테일");
+//        View.OnClickListener listener = new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(this, Level_1_1Activity.class);
+//                startActivity(intent);
+//            }
+//        };
+//      button.setOnClickListener(listener);
+//
 
-        btn_left.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, Level1_1Activity.class);
-                startActivity(intent);
 
-            }
-        });
-
-        btn_right.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, Level1_2Activity.class);
-                startActivity(intent);
-            }
-        });
+//
+//        button.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(this, Level_1_1Activity.class);
+//                startActivity(intent);
+//            }
+//        });
 
 
     }
