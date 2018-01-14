@@ -61,7 +61,8 @@
         <activity android:name=".Level_3_2Activity" />
         <activity android:name=".Level_4_4_1Activity" />
         <activity android:name=".Level_4_1_1Activity" />
-        <activity android:name=".Level1_3Activity"></activity>
+        <activity android:name=".Level1_3Activity" />
+        <activity android:name=".Level2_1Activity"></activity>
     </application>
 
 </manifest>

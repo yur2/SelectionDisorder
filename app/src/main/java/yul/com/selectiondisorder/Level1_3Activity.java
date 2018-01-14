@@ -22,7 +22,7 @@ public class Level1_3Activity extends AppCompatActivity {
         btn1.setText("밥");
         btn2.setText("고기");
         btn3.setText("면");
-        btn4.setText("패스트푸드");
+        btn4.setText("밀가루");
         btn5.setText("해산물");
 
         btn1.setOnClickListener(new View.OnClickListener() {
@@ -49,7 +49,7 @@ public class Level1_3Activity extends AppCompatActivity {
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(Level1_3Activity.this, "패스트푸드", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Level1_3Activity.this, "밀가루", Toast.LENGTH_SHORT).show();
             }
         });
 
