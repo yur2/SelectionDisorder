@@ -3,7 +3,6 @@ package yul.com.selectiondisorder;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -27,8 +26,8 @@ public class OneActivity extends AppCompatActivity {
         TextView tv_one_left = (TextView) findViewById(R.id.tv_one_left);
         TextView tv_one_right = (TextView) findViewById(R.id.tv_one_right);
 
-        tv_one_left.setText(data.datas.get(0)+"");
-        tv_one_right.setText(data.datas.get(1)+"");
+        tv_one_left.setText(data.datas.get(0) + "");
+        tv_one_right.setText(data.datas.get(1) + "");
 
 
         tv_one_left.setOnClickListener(new View.OnClickListener() {
@@ -58,8 +57,15 @@ public class OneActivity extends AppCompatActivity {
 
     private void getIntentprocess() {
 
+        Intent intent;
         intent = getIntent();
+        Bundle bundle = intent.getExtras();
+        String str = bundle.getString("datas");
+
+        String strg = intent.getExtras().getString("data");
+
         data = (Data) intent.getSerializableExtra("data");
+
 
         for (int i = 0; i < data.datas.size(); i++) {
             datas.add(data.datas.get(i));
