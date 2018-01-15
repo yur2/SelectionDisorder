@@ -13,7 +13,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button button = (Button) findViewById(R.id.button2);
+        Button btn_left = (Button) findViewById(R.id.btn_left);
+        Button btn_right = (Button) findViewById(R.id.btn_right);
+
+        btn_left.setText("배불러!");
+        btn_right.setText("배고파 ㅜㅜ");
+
+        btn_right.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Level1_3Activity.class);
+                startActivity(intent);
+            }
+        });
 
 //        View.OnClickListener listener = new View.OnClickListener() {
 //            @Override
