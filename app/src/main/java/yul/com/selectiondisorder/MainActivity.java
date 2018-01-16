@@ -19,6 +19,14 @@ public class MainActivity extends AppCompatActivity {
         btn_left.setText("배불러!");
         btn_right.setText("배고파 ㅜㅜ");
 
+        btn_left.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, LeveliamfullActivity.class);
+                startActivity(intent);
+            }
+        });
+
         btn_right.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

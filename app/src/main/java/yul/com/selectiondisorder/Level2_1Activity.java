@@ -1,12 +1,17 @@
 package yul.com.selectiondisorder;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+
 public class Level2_1Activity extends AppCompatActivity {
+
+    ArrayList<String> sort1 = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,36 +23,85 @@ public class Level2_1Activity extends AppCompatActivity {
         Button btn2_3 = (Button)findViewById(R.id.btn2_3);
         Button btn2_4 = (Button)findViewById(R.id.btn2_4);
 
-        btn2_1.setText("볶은류");
-        btn2_2.setText("한식");
-        btn2_3.setText("탕");
-        btn2_4.setText("국");
+        sort1.add("볶은류");
+        sort1.add("한식");
+        sort1.add("탕");
+        sort1.add("국");
+
+
+        btn2_1.setText(sort1.get(0));
+        btn2_2.setText(sort1.get(1));
+        btn2_3.setText(sort1.get(2));
+        btn2_4.setText(sort1.get(3));
+
+
+
+//        btn2_1.setText("볶은류");
+//        btn2_2.setText("한식");
+//        btn2_3.setText("탕");
+//        btn2_4.setText("국");
 
         btn2_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(Level2_1Activity.this, "볶은류", Toast.LENGTH_SHORT).show();
+
+                if("볶은류".equals(sort1.get(0)))
+                {
+                    Intent intent = new Intent(Level2_1Activity.this, Level3_1Activity.class);
+                    startActivity(intent);
+
+                    //Toast.makeText(Level2_1Activity.this, "볶은류", Toast.LENGTH_SHORT).show();
+
+                }
             }
         });
 
         btn2_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(Level2_1Activity.this, "한식", Toast.LENGTH_SHORT).show();
+
+                if("한식".equals(sort1.get(1)))
+                {
+                    Intent intent = new Intent(Level2_1Activity.this, Level3_1Activity.class);
+                    startActivity(intent);
+
+                    //  Toast.makeText(Level2_1Activity.this, "한식", Toast.LENGTH_SHORT).show();
+
+                }
+
             }
         });
 
         btn2_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(Level2_1Activity.this, "탕", Toast.LENGTH_SHORT).show();
+
+                if("탕".equals(sort1.get(2)))
+                {
+                    Intent intent = new Intent(Level2_1Activity.this, Level3_1Activity.class);
+                    startActivity(intent);
+
+                    //  Toast.makeText(Level2_1Activity.this, "탕", Toast.LENGTH_SHORT).show();
+
+                }
+
+
             }
         });
 
         btn2_4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(Level2_1Activity.this, "국", Toast.LENGTH_SHORT).show();
+
+                if("국".equals(sort1.get(3)))
+                {
+                    Intent intent = new Intent(Level2_1Activity.this, Level3_1Activity.class);
+                    startActivity(intent);
+
+                    //   Toast.makeText(Level2_1Activity.this, "국", Toast.LENGTH_SHORT).show();
+
+                }
+
             }
         });
     }
