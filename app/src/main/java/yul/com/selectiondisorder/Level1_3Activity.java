@@ -1,6 +1,7 @@
 package yul.com.selectiondisorder;
 
 import android.content.Intent;
+import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -12,20 +13,25 @@ import java.util.ArrayList;
 public class Level1_3Activity extends AppCompatActivity {
 
     ArrayList<String> sort = new ArrayList<>();
+    Intent intent;
+    Data data;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_level1_3);
 
-
-        Button btn1 = (Button)findViewById(R.id.btn1);
-        Button btn2 = (Button)findViewById(R.id.btn2);
-        Button btn3 = (Button)findViewById(R.id.btn3);
-        Button btn4 = (Button)findViewById(R.id.btn4);
-        Button btn5 = (Button)findViewById(R.id.btn5);
+        getIntentprocess();
 
 
-       // ArrayList<String> sort = new ArrayList<>();
+        Button btn1 = (Button) findViewById(R.id.btn1);
+        Button btn2 = (Button) findViewById(R.id.btn2);
+        Button btn3 = (Button) findViewById(R.id.btn3);
+        Button btn4 = (Button) findViewById(R.id.btn4);
+        Button btn5 = (Button) findViewById(R.id.btn5);
+
+
+        // ArrayList<String> sort = new ArrayList<>();
 
         sort.add("밥");
         sort.add("고기");
@@ -46,7 +52,6 @@ public class Level1_3Activity extends AppCompatActivity {
         //btn3.setText("면");
         //btn4.setText("밀가루");
         //btn5.setText("해산물");
-
 
 
 //        for(int i = 0 ; i < 4; i++)
@@ -91,9 +96,10 @@ public class Level1_3Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if("밥".equals(sort.get(0)))
-                {
+                if ("밥".equals(sort.get(0))) {
                     Intent intent = new Intent(Level1_3Activity.this, Level2_1Activity.class);
+                    data = new Data(sort, sort.get(0));
+                    intent.putExtra("data", data);
                     startActivity(intent);
                     //Toast.makeText(Level1_3Activity.this, "밥", Toast.LENGTH_SHORT).show();
 
@@ -106,8 +112,7 @@ public class Level1_3Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if("고기".equals(sort.get(1)))
-                {
+                if ("고기".equals(sort.get(1))) {
                     Intent intent = new Intent(Level1_3Activity.this, Level2_2Activity.class);
                     startActivity(intent);
                     //Toast.makeText(Level1_3Activity.this, "고기", Toast.LENGTH_SHORT).show();
@@ -120,11 +125,10 @@ public class Level1_3Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if("면".equals(sort.get(2)))
-                {
+                if ("면".equals(sort.get(2))) {
                     //Intent intent = new Intent(Level1_3Activity.this, Level2_2Activity.class);
                     //startActivity(intent);
-                   // Toast.makeText(Level1_3Activity.this, "면", Toast.LENGTH_SHORT).show();
+                    // Toast.makeText(Level1_3Activity.this, "면", Toast.LENGTH_SHORT).show();
                 }
 
             }
@@ -134,8 +138,7 @@ public class Level1_3Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if("밀가루".equals(sort.get(3)))
-                {
+                if ("밀가루".equals(sort.get(3))) {
                     // Intent intent = new Intent(Level1_3Activity.this, Level2_1Activity.class);
                     //startActivity(intent);
                     //Toast.makeText(Level1_3Activity.this, "밀가루", Toast.LENGTH_SHORT).show();
@@ -146,10 +149,9 @@ public class Level1_3Activity extends AppCompatActivity {
 
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view){
+            public void onClick(View view) {
 
-                if("해산물".equals(sort.get(4)))
-                {
+                if ("해산물".equals(sort.get(4))) {
                     //Intent intent = new Intent(Level1_3Activity.this, Level2_1Activity.class);
                     //startActivity(intent);
                     //Toast.makeText(Level1_3Activity.this, "해산물", Toast.LENGTH_SHORT).show();
@@ -159,7 +161,20 @@ public class Level1_3Activity extends AppCompatActivity {
 
 
         });
+    }
 
+    private void getIntentprocess() {
+
+        Intent intent;
+        intent = getIntent();
+        Bundle bundle = intent.getExtras();
+        String abc = bundle.getString("sort");
+        String abc1 = intent.getExtras().getString("data");
+        sort = (Data) intent.getSerializableExtra("data");
+
+        for (int i = 0; i < data.sort.size(); i++) {
+            sort.add(data.sort.get(i));
+        }
 
     }
 }

@@ -20,19 +20,19 @@ public class Level3_1Activity extends AppCompatActivity {
         Button btn3_3 = (Button)findViewById(R.id.btn3_3);
         Button btn3_4 = (Button)findViewById(R.id.btn3_4);
 
-        ArrayList<String> sort = new ArrayList<>();
+        ArrayList<String> sort2 = new ArrayList<>();
 
-        sort.add("볶음밥, 볶은나물");
-        sort.add("구절판, 비빔밥");
-        sort.add("대구탕, 메기탕, 곰탕");
-        sort.add("돼지국밥, 미역국, 된장국");
+        sort2.add("볶음밥, 볶은나물");
+        sort2.add("구절판, 비빔밥");
+        sort2.add("대구탕, 메기탕, 곰탕");
+        sort2.add("돼지국밥, 미역국, 된장국");
 
 
 
-        btn3_1.setText(sort.get(0));
-        btn3_2.setText(sort.get(1));
-        btn3_3.setText(sort.get(2));
-        btn3_4.setText(sort.get(3));
+        btn3_1.setText(sort2.get(0));
+        btn3_2.setText(sort2.get(1));
+        btn3_3.setText(sort2.get(2));
+        btn3_4.setText(sort2.get(3));
 
         btn3_1.setOnClickListener(new View.OnClickListener() {
             @Override
