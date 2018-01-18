@@ -16,6 +16,8 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
 
 
@@ -31,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
     ImageView imageView;
     Button button;
     TextView textView;
-
+    Data data;
+    ArrayList datas;
     boolean flag;
 
     @Override
@@ -39,7 +42,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        datas = new ArrayList();
+
         flag = true;
+
+        data = new Data();
 
         // 위젯 바인딩
         radioGroup = (RadioGroup) findViewById(R.id.radiogroup);
@@ -61,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
                 switch (checkedId) {
                     case R.id.radioButton:
                         Toast.makeText(MainActivity.this, "radioButton", Toast.LENGTH_SHORT).show();
+                         datas = data.getData(0);
                         break;
 
                     case R.id.radioButton2:
