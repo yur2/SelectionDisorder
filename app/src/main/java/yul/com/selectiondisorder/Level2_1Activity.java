@@ -113,17 +113,17 @@ public class Level2_1Activity extends AppCompatActivity {
             }
         });
     }
-    private void getIntentprocess() {
-
-        Intent intent;
-        intent = getIntent();
-        Bundle bundle = intent.getExtras();
-        String abc = bundle.getString("sort1");
-        String abc1 = intent.getExtras().getString("data");
-        data = (Data) intent.getSerializableExtra("data");
-
-        for (int i = 0; i < data.sort1.size(); i++) {
-            sort1.add(data.sort1.get(i));
-        }
+//    private void getIntentprocess() {
+//
+//        Intent intent;
+//        intent = getIntent();
+//        Bundle bundle = intent.getExtras();
+//        String abc = bundle.getString("sort1");
+//        String abc1 = intent.getExtras().getString("data");
+//        data = (Data) intent.getSerializableExtra("data");
+//
+//        for (int i = 0; i < data.sort1.size(); i++) {
+//            sort1.add(data.sort1.get(i));
+//        }
 }
 }
