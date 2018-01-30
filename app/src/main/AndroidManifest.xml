@@ -24,7 +24,8 @@
         <activity android:name=".Main22Activity" />
         <activity android:name=".Main22_2Activity" />
         <activity android:name=".leveliamfull" />
-        <activity android:name=".Datas"></activity>
+        <activity android:name=".Datas" />
+        <activity android:name=".yulActivity"></activity>
     </application>
 
 </manifest>
